@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: #222;
+		}
+	</style>
+
+</head>
+<body>
+<object data="{% static 'changeling/station-clock.svg' %}" type="image/svg+xml"
+        width="auto" height="900px">
+        <param name="dial"               value="din 41091.1"/>
+  <param name="hourHand"           value="swiss"/>
+  <param name="minuteHand"         value="german"/>
+  <param name="secondHand"         value="swiss"/>
+  <param name="minuteHandBehavior" value="stepping"/>
+  <param name="secondHandBehavior" value="stepping"/>
+  <param name="secondHandStopToGo" value="undefined"/>
+  <param name="secondHandStopTime" value="1.5"/>
+  <param name="backgroundColor"    value="rgba(0,0,0,0)"/>
+  <param name="dialColor"          value="rgb(50,50,50)"/>
+  <param name="hourHandColor"      value="rgb(0,0,0)"/>
+  <param name="minuteHandColor"    value="rgb(0,0,0)"/>
+  <param name="secondHandColor"    value="rgb(200,20,20)"/>
+  <param name="axisCoverColor"     value="rgb(20,20,20)"/>
+  <param name="axisCoverRadius"    value="0"/>
+  <param name="updateInterval"     value="50"/>
+</object>
+</body>
+</html>
