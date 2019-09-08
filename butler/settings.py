@@ -25,7 +25,7 @@ SECRET_KEY = 'wgjfdo#-ff3xvq4!!&c$u63yr*zk)=(c%vq_xtp74$fszs8#l8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
