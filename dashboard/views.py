@@ -28,6 +28,7 @@ def gitupdate(request):
 
 		return JsonResponse({"Success":"", "log":log})
 	except Exception as e:
+		import sys, os
 		exc_type, exc_obj, exc_tb = sys.exc_info()
 		other = sys.exc_info()[0].__name__
 		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
